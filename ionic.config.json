@@ -1,5 +1,8 @@
 {
   "name": "p5jsPaint",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
