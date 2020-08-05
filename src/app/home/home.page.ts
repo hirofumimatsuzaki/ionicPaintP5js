@@ -21,6 +21,7 @@ export class HomePage implements OnInit{
 
   }
 ngOnInit(){
+  this.photoService.loadSaved();
   const p5obj=new p5(p =>{
     p.setup =() =>{ this.setup(p);};
     p.draw =() =>{ this.draw(p);};
